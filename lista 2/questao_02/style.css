@@ -1,0 +1,22 @@
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+th, td {
+    border: 1px solid black;
+    padding: 0px 8px;
+    text-align: left;
+}
+th {
+    background-color: #e3e5e7;
+}
+td {
+    text-align: center;
+}
+.gray-row {
+    background-color: #e0e0e0;
+}
+
+.rodape{
+    background-color: rgb(126, 204, 249);
+}
