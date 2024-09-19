@@ -1,53 +1,52 @@
-
 body {
-  margin: 0;
-  font-family: Arial, sans-serif;
-  background: linear-gradient(to right, rgb(255, 255, 255), rgba(255, 255, 255, 0)),
-              url('/lista_1/questao_03/imagens/perfil.JPG') no-repeat right center;
-  background-size: 50% auto; /* A imagem ocupa 50% da largura da tela */
-  background-position: right top; /* A imagem será posicionada à direita */
-  background-blend-mode: screen; /* Mescla o degradê com a imagem */
-  color: #333;
-  height: 100vh; /* Altura da tela cheia */
+  background-color: #f4f2f2;
+}
+h1{
+  font-family: poppins;
+  font-size: 80px;
+}
+#bloco{
   display: flex;
-  align-items: center;
-  justify-content: flex-start; /* Posiciona o conteúdo à esquerda */
-  
+} 
+#texto{
+ margin-right: 8%;
+ margin-left: 20px;
+ text-align: justify;
+ line-height: 130%;
+ font-family: Arial, Helvetica, sans-serif;
 }
-
-div {
-  background-color:rgba(243, 242, 242, 0.6); /* Fundo branco translúcido para o texto */
-  padding: 20px 40px;
+h2{
+  font-size: 25px;
+}
+img{
+  width: 40%;
   border-radius: 10px;
-  max-width: 600px;
-  margin-left: 50px; /* Afasta o texto da borda esquerda */
-  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+  border: 2px solid transparent;
+  Object-fit: cover;
 }
 
-h1 {
-  font-size: 36px;
-  color: #000;
-  margin-bottom: 20px;
-  text-align: center;
+
+footer {
+  background-color: #272727;
+  padding: 20px;
+  text-align: center; 
+  margin-top: 30px;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+footer h4{
+  font-size: 20px;
+}
+footer ul {
+  list-style: none; 
+  padding: 0; 
+}
+footer li {
+  margin: 15px 0; 
+}
+footer a { /*Link do linkedin*/
+  color: white;
+  text-decoration: none; 
 }
 
-.texto p {
-  font-size: 16px;
-  line-height: 1.6;
-  text-align: justify;
-  margin-bottom: 20px;
-}
 
-.texto ul {
-  padding-left: 20px;
-  margin-bottom: 20px;
-}
-
-.texto li {
-  font-size: 16px;
-  line-height: 1.5;
-}
-
-.texto b {
-  color: #000;
-}
