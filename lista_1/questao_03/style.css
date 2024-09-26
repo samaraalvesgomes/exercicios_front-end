@@ -8,7 +8,7 @@ h1{
 #bloco{
   display: flex;
 } 
-#texto{
+#texto{ 
  margin-right: 8%;
  margin-left: 20px;
  text-align: justify;

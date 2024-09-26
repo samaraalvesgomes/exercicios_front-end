@@ -1,0 +1,20 @@
+body{
+   text-align: center;
+
+}
+form{
+   margin: auto;
+    max-width: 600px;  
+  
+}
+div{
+    margin-bottom: 10px;
+}
+label{
+    display: block;
+    text-align:justify;
+}
+input{
+    width: 100%;
+}
+    
