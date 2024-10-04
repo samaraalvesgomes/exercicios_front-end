@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Document</title>
 </head>
 <body>
@@ -21,16 +22,20 @@
             <input type="text"/>
         </div>
         <div>
-            <label for="senha">Gênero:</label>
+            <label for="genero">Gênero:</label>
             <select>
                 <option value="masculino">Masculino</option>
                 <option value="feminino">Feminino</option>
             </select>
         </div>
-        <label for="preferencia">Como prefere ser contratado?</label>
-        <input type="checkbox">Email
-        <input type="checkbox">Telefone
-        <input type="checkbox">SMS
+        <div>
+            <label for="preferencia">Como prefere ser contratado?</label>
+            <span>
+                <input type="checkbox">Email
+                <input type="checkbox">Telefone
+                <input type="checkbox">SMS
+            </span>
+        </div>
     </form>
     <BUtton>Enviar</BUtton>
 </body>

@@ -1,0 +1,11 @@
+*{
+    text-align: center;
+}
+
+p{
+    background-color: chartreuse;
+}
+
+div{
+    margin: 10px;
+}
